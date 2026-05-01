@@ -1,16 +1,61 @@
-# React + Vite
+# 🔐 Sistema de Login com React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido com o objetivo de praticar conceitos de React, estilização com Tailwind CSS e manipulação de dados no navegador utilizando LocalStorage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+- React
+- React Router
+- Tailwind CSS
+- LocalStorage (API do navegador)
+- Hooks do React (useState, useEffect, etc.)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Cadastro de usuário
+- Armazenamento de dados no LocalStorage
+- Tela de login com validação de usuário
+- Redirecionamento entre páginas com React Router
+- Validação de campos obrigatórios com exibição de mensagens de erro
+- Navegação entre páginas:
+  - Login
+  - Cadastro
+  - Sucesso de login
+  - Sucesso de cadastro
+
+---
+
+## 🧠 Objetivo do projeto
+
+O projeto foi criado com foco em prática e aprendizado, principalmente para reforçar:
+
+- Manipulação de estado no React
+- Persistência de dados no navegador (LocalStorage)
+- Criação de rotas com React Router
+- Validação de login
+- Estilização moderna com Tailwind CSS
+
+---
+
+```bash
+## 🛠️ Como executar o projeto
+
+1. Clone o repositório:
+git clone https://github.com/gabriel-pereira0/Projeto_LoginRegister.git
+
+2. Acesse a pasta do projeto:
+cd Projeto_LoginRegister/LoginRegisterApp
+
+3. Instale as dependências:
+npm install
+
+4. Execute o projeto:
+npm run dev
+
+5. Abra no navegador:
+http://localhost:5173
+```

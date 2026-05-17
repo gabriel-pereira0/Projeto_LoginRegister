@@ -48,7 +48,7 @@ O projeto foi criado com foco em prática e aprendizado, principalmente para ref
 git clone https://github.com/gabriel-pereira0/Projeto_LoginRegister.git
 
 2. Acesse a pasta do projeto:
-cd Projeto_LoginRegister/LoginRegisterApp
+cd LoginRegisterApp
 
 3. Instale as dependências:
 npm install

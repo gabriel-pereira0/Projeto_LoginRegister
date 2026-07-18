@@ -1,61 +1,74 @@
-# 🔐 Sistema de Login com React
+# 🔐 Sistema de Login e Cadastro
 
-Este projeto foi desenvolvido com o objetivo de praticar conceitos de React, estilização com Tailwind CSS e manipulação de dados no navegador utilizando LocalStorage.
+Projeto desenvolvido utilizando **React**, **React Router** e **Tailwind CSS**, com foco na criação de um sistema de autenticação simples, utilizando **LocalStorage** para persistência dos dados e navegação entre páginas.
 
----
+## 🌐 Projeto Online
 
-## 🚀 Tecnologias utilizadas
+👉 **Acesse o projeto:** https://projeto-login-register-gpa.vercel.app/
+
+## 📋 Funcionalidades
+
+- Cadastro de usuários
+- Login com validação de credenciais
+- Armazenamento de dados utilizando **LocalStorage**
+- Navegação entre páginas com **React Router**
+- Validação de campos obrigatórios
+- Exibição de mensagens de erro
+- Telas de sucesso para cadastro e login
+- Interface responsiva desenvolvida com **Tailwind CSS**
+
+## 🛠️ Tecnologias utilizadas
 
 - React
 - React Router
 - Tailwind CSS
-- LocalStorage (API do navegador)
-- Hooks do React (useState, useEffect, etc.)
+- JavaScript
+- LocalStorage
 
----
+## 💻 Sobre o projeto
 
-## 📌 Funcionalidades
+Este projeto foi desenvolvido como parte dos meus estudos em React, permitindo praticar conceitos como gerenciamento de estado, roteamento de páginas, persistência de dados no navegador e criação de interfaces modernas utilizando Tailwind CSS.
 
-- Cadastro de usuário
-- Armazenamento de dados no LocalStorage
-- Tela de login com validação de usuário
-- Redirecionamento entre páginas com React Router
-- Validação de campos obrigatórios com exibição de mensagens de erro
-- Navegação entre páginas:
-  - Login
-  - Cadastro
-  - Sucesso de login
-  - Sucesso de cadastro
+## 🚀 Aprendizados
 
----
+Durante o desenvolvimento deste projeto, pratiquei:
 
-## 🧠 Objetivo do projeto
+- Componentização com React;
+- Gerenciamento de estado utilizando Hooks;
+- Criação e gerenciamento de rotas com React Router;
+- Persistência de dados utilizando LocalStorage;
+- Validação de formulários;
+- Desenvolvimento de interfaces responsivas com Tailwind CSS;
+- Organização de arquivos e boas práticas no desenvolvimento Front-end.
 
-O projeto foi criado com foco em prática e aprendizado, principalmente para reforçar:
-
-- Manipulação de estado no React
-- Persistência de dados no navegador (LocalStorage)
-- Criação de rotas com React Router
-- Validação de login
-- Estilização moderna com Tailwind CSS
-
----
-
-```bash
-## 🛠️ Como executar o projeto
+## ▶️ Como executar o projeto
 
 1. Clone o repositório:
+
+```bash
 git clone https://github.com/gabriel-pereira0/Projeto_LoginRegister.git
+```
 
 2. Acesse a pasta do projeto:
+
+```bash
 cd LoginRegisterApp
+```
 
 3. Instale as dependências:
+
+```bash
 npm install
+```
 
 4. Execute o projeto:
+
+```bash
 npm run dev
+```
 
 5. Abra no navegador:
+
+```text
 http://localhost:5173
 ```

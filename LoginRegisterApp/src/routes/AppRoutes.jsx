@@ -1,7 +1,6 @@
-import React from 'react';
 import { Routes, Route } from 'react-router';
 
-import { Login } from '../pages/login';
+import { Login } from '../pages/Login';
 import { Register } from '../pages/Register';
 import { LoginSucess } from '../pages/LoginSucess';
 import { RegisterSucess } from '../pages/RegisterSucess';
